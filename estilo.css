@@ -1,0 +1,104 @@
+body{
+    margin:0;
+    padding:0;
+}
+#mapa{
+    height:100vh;
+    width:100vw;
+}
+
+.ol-control button{
+    border-radius:15px;
+}
+.ol-zoom .ol-zoom-in{
+    border-radius:15px;
+}
+.ol-zoom .ol-zoom-out{
+    border-radius:15px;
+}
+.ol-overviewmap{
+    left:.5em;
+    bottom: 3.5em;
+}
+.ol-mouse-position{
+    top: unset;
+    right: 8px;
+    bottom: 15px;
+    position: absolute;
+}
+#popup{
+    color:red
+}
+.ol-overviewmap{
+    left:.5em;
+    bottom: 3.5em;
+}
+
+#popup-container{
+    background-color: #555;
+    width: 150px;
+    color: #fff;
+    text-align: center;
+    border-radius: 1px;
+    padding: 2px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+#popup-container #popup-title::after{
+    content:"";
+    position: absolute;
+    top:100%;
+    left:50%;
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+#leyenda{
+    z-index: 5;
+    padding: 4px 8px 0px 0px;
+    border: 2px solid gray;
+    position: absolute;
+    bottom: 35px;
+    right: 0%;
+    height: 25%;
+    overflow: scroll;
+    width: 5%;
+    background-color: #ffffff;
+    font-weight: bold;
+  }
+
+  .leyenda-color {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    background-color: transparent;
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  .leyenda-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .leyenda-color {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  .leyenda-etiqueta {
+    flex: 1;
+  }
+  
+  
+
+
+
